@@ -65,7 +65,7 @@ function printTriangle(n) {
 // Test case chính
 printTriangle(5);
 printTriangle(7);
-printTriangle(15);
+printTriangle(15);s
 
 // Test case phụ
 console.log(isPrime(2))
