@@ -65,11 +65,12 @@ function printTriangle(n) {
 // Test case chính
 printTriangle(5);
 printTriangle(7);
-printTriangle(15);s
+printTriangle(15);
 
 // Test case phụ
-console.log(isPrime(2))
-console.log(isPrime(9))
 
-console.log(isDivisibleBy15(15))
-console.log(isDivisibleBy15(2))
+const arr = [10, 20];
+const iter = arr[Symbol.iterator]();
+console.log(iter.next());
+console.log(iter.next());
+console.log(iter.next());
